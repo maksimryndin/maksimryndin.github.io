@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:wght@300..700);
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
  *, *::after, *::before {
 	 box-sizing: border-box;
@@ -11,9 +11,12 @@
 	 font-size: 16px;
 	 line-height: 1.5em;
 }
- a {
-	 color: #6c9;
-	 text-decoration: none;
+a {
+	 color: #B7410E;
+}
+
+a.white {
+  color: #fff;
 }
  .clearfix::after, .clearfix::before {
 	 content: " ";
@@ -52,7 +55,7 @@
  .profile h1 {
 	 font-size: 2.5em;
 	 text-align: left;
-	 font-family: 'Varela Round', sans-serif;
+	 font-family: 'Space Grotesk', sans-serif;
 	 color: #4a4e51;
 	 text-transform: uppercase;
 	 line-height: 1em;
@@ -102,7 +105,7 @@
 }
  .profile .picture-resume img {
 	 border-radius: 50%;
-	 width: 130px;
+	 width: 160px;
 }
  @media (max-width: 1500px) {
 	 .profile .picture-resume img {
@@ -111,8 +114,8 @@
 }
  @media (max-width: 1200px) {
 	 .profile .picture-resume img {
-		 width: 120px;
-		 height: 120px;
+		 width: 140px;
+		 height: 140px;
 	}
 }
  @media (max-width: 1500px) {
@@ -188,7 +191,8 @@
 	 fill: #6c9;
 }
  .experience {
-	 background: #3d3e42;
+   background-image: url("rust.jpg");
+   background-color: #B7410E;
 	 width: 60%;
 	 float: left;
 	 position: relative;
@@ -203,11 +207,11 @@
 	}
 }
  .experience h3.experience-title {
-	 color: #6c9;
+	 color: #fff;
 	 text-align: left;
 	 text-transform: uppercase;
-	 font-size: 1.2em;
-	 margin-bottom: 20px;
+	 font-size: 2em;
+	 margin-bottom: 60px;
 	 font-weight: 400;
 }
  .experience .company-wrapper {
@@ -270,7 +274,6 @@
 	 padding-right: 8%;
 }
  .section-wrapper h3.section-title {
-	 color: #6c9;
 	 text-align: left;
 	 text-transform: uppercase;
 	 font-size: 1.2em;
